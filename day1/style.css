@@ -7,9 +7,15 @@ body {
 .parent {
   background-color: #23424a;
   padding:50px;
+
+  margin: 0 auto;
+ width: 80%; 
+ /* overflow: hidden; */
 }
 
 .child {
   background-color:#38cfd9;
-  height: 250px;
+
+  width: 80%;
+ /*  height: 250px; */
 }
