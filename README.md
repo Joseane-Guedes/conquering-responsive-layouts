@@ -1,6 +1,6 @@
-# Conquering Responsive Layouts by Kevin Paul 🚀 
+# Conquering Responsive Layouts 🚀 
 
-- 21 days of learning responsive design by Kevin Paul  📚 
+- 21 days of learning responsive design by Kevin Powell  📚 
 
 🔗 [Course link](https://courses.kevinpowell.co/courses/conquering-responsive-layouts)
 
