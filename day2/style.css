@@ -10,7 +10,7 @@ body {
 
 /*
  line 21 > max-width: 750px;
- There is no rule, but in general, we want to avoid height issues, we want to avoid widhts. And in general, having something like a minimum width, if you have a good reason for it, thats fine. But, most of the time it's like setting a width. it's going to fight against things being responsive. it's not going to make it easier for something responsive.
+ There is no rule, but in general, we want to avoid height issues, we want to avoid widhts. And in general, having something like a minimum width, if you have a good reason for it, thats fine. But, most of the time it's like setting a width. it's going to fight against things being responsive. it's not going to make it easier for something responsive!
  
   */
 .container {
