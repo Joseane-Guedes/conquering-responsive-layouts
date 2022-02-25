@@ -4,3 +4,5 @@
 
 🔗 [Course link](https://courses.kevinpowell.co/courses/conquering-responsive-layouts)
 
+<img src="./.github/study.gif"  alt="boy studying"> 
+
