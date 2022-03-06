@@ -1,3 +1,12 @@
+/* The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS. Developed by the team at Yandex, its goal is to help developers better understand the relationship between the HTML and CSS in a given project.
+
+Link: https://css-tricks.com/bem-101/
+
+
+Example: card is block. It get's the class .card. Card image, title and content are elements of the card, and get classes: .card__image, .card__title, .card__content. Light and dark are modifiers and they get the classes: .card--dark, .card--light.
+
+Box-sizing Defaults to content-box --> padding, margin and border are added outside. border-box --> padding, margin and border are inside the element. */
+
 *, *::before, *::after {
   box-sizing:border-box;
 }
