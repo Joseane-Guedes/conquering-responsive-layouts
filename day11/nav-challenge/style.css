@@ -76,7 +76,7 @@ header {
 }
 
 .logo {
-    margin-right: 1em;
+    margin-right: em;
 /*   border: 2px solid yellow; */
 }
 
@@ -96,12 +96,18 @@ header {
   padding: 0;
   list-style: none;
   font-size: 1rem;
-  /*     border: 2px solid red; */
+/*       border: 2px solid red; */
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.nav__list--primary{
+    margin: 0 auto;
+}
+
+
 
 .nav__item + .nav__item {
   margin-left: 1em;
