@@ -74,6 +74,10 @@ header {
    
 }
 
+.nav {
+    display:flex;
+    justify-content: space-between;
+}
 
 .nav__list {
     margin: 0;
@@ -85,9 +89,14 @@ header {
     padding: 1em 0;
 }
 
-.nav__item{
-    margin-right: 1em;
+.nav__item + .nav__item{
+    margin-left: 1em;
 }
+
+/* .nav__item--push-right{
+    margin-left: auto;
+    lançara o item sign-in e sign up para o lado esquerdo.
+} */
 
 .nav__link {
     color: #fff;
