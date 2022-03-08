@@ -78,16 +78,25 @@ body {
   margin-left: 3em;
 }
 
-/*  */
 
 .custom-section {
   background-color: #222c2a;
   color: #fff;
 
+}
+
+.care-section {
+  background-color: #824936;
+  color: #fff;
+}
+
+.custom-section,
+.care-section {
   display: flex;
   justify-content: center;
   align-items: center
 }
+
 
 .custom-section__title,
 .care-section__title {
@@ -101,14 +110,7 @@ body {
 }
 
 
-.care-section {
-  background-color: #824936;
-  color: #fff;
 
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
 
 
 
