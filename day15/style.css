@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto:wght@300;400;900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.example {
+  width: 90%;
+  margin: 5em auto;
+  padding: 10em 0;
+  background-color: steelblue;
+}
+
+.example h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+
+
+/* it's always gonna be from smallest to biggest inside my media queries. */
+
+/* 600px or bigger => x > 600px */
+@media (min-width: 600px) {
+  .example { 
+    background-color: olivedrab;
+  }
+ }
+
+ /* 800px or bigger => x > 800px */
+@media(min-width: 800px) {
+  .example { 
+    background-color: orangered;
+  }  
+}
+
+/* 600px or smaller => x < 600px */
+/* @media (max-width: 600px) {
+  .example { 
+    background-color: olivedrab;
+  }
+} */
