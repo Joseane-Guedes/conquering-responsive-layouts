@@ -35,6 +35,7 @@ section{
  .container {
   width:85%;
   margin: 0 auto;
+  max-width: 1128px;
  }
 
 .section-title {
@@ -53,6 +54,10 @@ section{
   padding: 200px 0;
   text-align:center;
   color: #824936;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
 }
 
 .intro__text{
@@ -77,3 +82,21 @@ color: #fff;
   background-color:#824936;
   color: #fff;
 }
+
+@media(min-width: 768px) {
+  .row {
+    display: flex;
+  }
+  .col {
+    width: 100%;
+  }
+  .col + .col {
+    margin-left: 3em;
+  }
+  .intro__title{
+    font-size: 3.75rem;
+  }
+}
+
+
+
